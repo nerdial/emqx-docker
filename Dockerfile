@@ -92,4 +92,4 @@ VOLUME ["/opt/emqx/log", "/opt/emqx/data", "/opt/emqx/lib", "/opt/emqx/etc"]
 # - 4369 for port mapping
 # - 5369 for gen_rpc port mapping
 # - 6369 for distributed node
-EXPOSE 1883 8883 8083 8084 8080 18083 4369 5369 6369 6000-6999
+EXPOSE 1883 8883 8083 8084 8080 18083 4369 5369 6369
